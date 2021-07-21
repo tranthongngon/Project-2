@@ -1,0 +1,71 @@
+.posts--listing-grid-has-sidebar-1 .posts-list {
+   margin: -3.5714285714285716rem -1.7857142857142858rem;
+}
+
+.posts--listing-grid-has-sidebar-1 .posts-list>*{
+    padding: 3.5714285714285716rem 1.7857142857142858rem;
+}
+
+.posts--listing-grid-has-sidebar-1 .posts-list .list-item:nth-child(2n-1):not(:first-child) {
+   position: relative;
+}
+.posts--listing-grid-has-sidebar-1 .posts-list .list-item:nth-child(2n-1):not(:first-child)::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   bottom: auto;
+   left: 1.7857142857142858rem;
+   right: auto;
+   width: calc((100% * 2) - (1.7857142857142858rem * 2));
+   height: 0.07142857142857142rem;
+   background-color: var(--color-primary);
+   opacity: 0.1;
+ }
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .posts--listing-grid-has-sidebar-1 .posts-list {
+        margin: -4.170141784820684vw -2.085070892410342vw;
+     }
+     
+     .posts--listing-grid-has-sidebar-1 .posts-list>*{
+         padding: 4.170141784820684vw 2.085070892410342vw;
+     }
+     .posts--listing-grid-has-sidebar-1 .posts-list .list-item:nth-child(2n-1):not(:first-child)::before {
+        left: 2.085070892410342vw;
+        width: calc((100% * 2) - 4.170141784820684vw);
+        height: 0.08340283569641367vw;
+      }
+}
+
+
+@media (max-width: 767px) {
+    .posts--listing-grid-has-sidebar-1 .posts-list {
+        margin: -2.607561929595828vw -1.955671447196871vw;
+     }
+     
+     .posts--listing-grid-has-sidebar-1 .posts-list>*{
+         padding: 2.607561929595828vw 1.955671447196871vw;
+     }
+     .posts--listing-grid-has-sidebar-1 .posts-list .list-item:nth-child(2n-1):not(:first-child)::before {
+        left: 1.955671447196871vw;
+        width: calc((100% * 2) - 3.911342894393742vw);
+        height: 0.08340283569641367vw;
+      }
+}
+
+@media (max-width: 575px) {
+    .posts--listing-grid-has-sidebar-1 .posts-list>*{
+        width: 100%;
+    }
+    .posts--listing-grid-has-sidebar-1 .posts-list {
+        margin: -2.608695652173913vw;
+     }
+     
+     .posts--listing-grid-has-sidebar-1 .posts-list>*{
+         padding: 2.608695652173913vw;
+     }
+     .posts--listing-grid-has-sidebar-1 .posts-list .list-item:nth-child(2n-1):not(:first-child)::before {
+        display: none;
+    }
+}

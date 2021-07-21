@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+    .site-header{
+        padding: 0 1.955671447196871vw;
+    }
+    .atbs-mobile-header{
+        background-color: #fafbfc;
+        border-bottom: 0.1303780964797914vw solid var(--color-border);
+        box-shadow: none;
+        height: 7.822685788787484vw;
+    }
+    .mobile-header__inner{
+        padding: 0;
+    }
+    .header-logo--mobile img{
+        max-width: 13.03780964797914vw;
+    }
+    .mobile-header-btn{
+        height: 7.822685788787484vw;
+        padding: 0;
+    }
+    .mobile-header-btn i{
+        color: var(--color-text);
+        opacity: 0.8;
+        line-height: 7.822685788787484vw;
+    }
+    .atbs-mobile-header .logo-text {
+        font-size: 1.57142857143rem;
+        font-weight: 700;
+    }
+    .atbs-mobile-header .search-form__submit-wrap .btn {
+        background-color: rgba(23, 23, 23, 0.8);
+        color: #ffffff;
+        border: none;
+        font-size: 1rem;
+        padding:1.04302477184vw 1.3037809648vw;
+        border: 0.1303780964797914vw solid var(--color-border);
+    }
+
+    .atbs-mobile-header .header-search-dropdown .search-form__input input[type="text"],.atbs-mobile-header .header-search-dropdown .search-form__input input[type="text"]::placeholder {
+        color: var(--color-text);
+    }
+    .atbs-mobile-header .header-search-dropdown .search-form__input,
+    .atbs-mobile-header .header-search-dropdown .search-form__input input[type="text"]:focus {
+        border: none;
+    }
+    .header-search-dropdown .search-form__input{
+        padding:1.955671447196871vw 1.0430247718383312vw;
+    }
+    .header-search-dropdown{
+        border-top: 0.1303780964797914vw solid var(--color-border);
+    }
+   
+}
+@media(max-width:575px) {
+    .site-header{
+        padding: 0 2.608695652173913vw;
+    }
+    .atbs-mobile-header{
+        border-bottom-width:0.17391304347826086vw;
+    }
+    .mobile-header-btn, .atbs-mobile-header{
+        height: 10.434782608695652vw;
+    }
+    .mobile-header-btn i{
+        line-height: 10.434782608695652vw;
+    }
+    .header-logo--mobile img{
+        max-width: 15.652173913043478vw;
+    }
+    .atbs-mobile-header .search-form__submit-wrap .btn {
+        padding:1.391304347826087vw 1.7391304347826086vw;
+        border-width: 0.17391304347826086vw;
+    }
+    .header-search-dropdown .search-form__input{
+        padding:2.608695652173913vw 1.391304347826087vw;
+    }
+}

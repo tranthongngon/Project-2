@@ -1,0 +1,88 @@
+.post--vertical-text-effect .post__thumb {
+    width: 78.8235294118%;
+    margin: 0 auto;
+}
+.post--vertical-text-effect .post__title-group {
+    margin-bottom: 1.428571428571429rem;
+}
+.atbs-posts-block-main-col-1 .section-sub {
+    margin-top: 3.571428571428571rem;
+}
+.atbs-posts-block-main-col-1 .post--vertical-text-color-effect .post__text {
+    margin-top: -7.142857142857143rem;
+    width: 100%;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .post--vertical-text-effect .post__title-group {
+        margin-bottom: 1.6680567139282736vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub {
+        margin-top: 4.170141784820684vw;
+    }
+    .atbs-posts-block-main-col-1 .post--vertical-text-color-effect .post__text {
+        margin-top: -8.340283569641368vw;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .atbs-posts-block-main-col-1 .f-70 {
+        font-size: 3.214285714285714rem;
+    }  
+}
+@media (max-width: 767px) {
+    .post--vertical-text-effect .post__thumb{
+        width: 65%;
+    }
+    .atbs-posts-block-main-col-1 .post--vertical-text-color-effect .post__text {
+        margin-top: -9.126466753585397vw;
+    }
+    .post--vertical-text-effect .post__title-group {
+        margin-bottom: 1.955671447196871vw;
+        margin-left:3.4782608695652173vw;
+        margin-right:3.4782608695652173vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub {
+        margin-top: 5.215123859191656vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub .post--vertical-normal .post__thumb {
+        height: 28.683181225554108vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub .posts-list {
+        margin: -1.303780964797914vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub .posts-list > * {
+        width: 50%;
+        padding: 1.303780964797914vw;
+    }
+  
+}
+@media (max-width: 575px) {
+    .atbs-posts-block-main-col-1 .section-sub .posts-list{
+        margin: -2.608695652173913vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub .posts-list > * {
+        width: 100%;
+        padding: 2.608695652173913vw;
+    }
+    .atbs-posts-block-main-col-1 .post--vertical.post--vertical-normal .post__thumb {
+        height: 52.17391304347826vw;
+    }
+    .post--vertical-text-effect .post__thumb {
+        width: 100%;
+        height: 60.869565217391305vw;
+    }
+    .atbs-posts-block-main-col-1 .f-70 {
+        font-size: 2.285714285714286rem;
+    }  
+    .atbs-posts-block-main-col-1 .post--vertical-text-color-effect .post__text {
+        margin-top: -7.826086956521739vw;
+    }
+    .post--vertical-text-effect .post__title-group {
+        margin-bottom: 1.7391304347826086vw;
+    }
+    .atbs-posts-block-main-col-1 .section-sub {
+        margin-top: 5.217391304347826vw;
+    }
+}

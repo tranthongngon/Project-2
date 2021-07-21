@@ -1,0 +1,140 @@
+.posts--listing-grid-has-sidebar-2 .section-sub {
+    margin-top: 7.142857142857143rem;
+}
+
+.posts--listing-grid-has-sidebar-2 .section-sub .posts-list {
+    margin-left: -3.928571428571429rem;
+    margin-right: -3.928571428571429rem;
+}
+
+.posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+    padding-left: 3.928571428571429rem;
+    padding-right: 3.928571428571429rem;
+}
+
+.list-interleaved .list-item:nth-child(2n-1) {
+    margin-bottom: 7.857142857142857rem;
+}
+.list-interleaved .list-item:nth-child(2n) {
+    margin-top: 7.857142857142857rem;
+}
+
+.hover-shadow-md .post__thumb {
+    position: relative;
+}
+
+.hover-shadow-md:hover .post__thumb::after {
+    position: absolute;
+    width: 90%;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 32%;
+    box-shadow: 0 1.071428571428571rem 2.357142857142857rem rgba(0, 0, 0, 0.08);
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .posts--listing-grid-has-sidebar-2 .section-sub {
+        margin-top: 7.923269391159299vw;
+    }
+    .hover-shadow-md:hover .post__thumb::after {
+        box-shadow: 0 1.2510425354462051vw 2.7522935779816513vw rgba(0, 0, 0, 0.08);
+    }
+}
+
+@media (max-width: 1199px) {
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list {
+        margin-left: -4.587155963302752vw;
+        margin-right: -4.587155963302752vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+        padding-left: 4.587155963302752vw;
+        padding-right: 4.587155963302752vw;
+    }
+    .list-interleaved .list-item:nth-child(2n) {
+        margin-top: 9.174311926605505vw;
+    }
+    .list-interleaved .list-item:nth-child(2n-1) {
+        margin-bottom: 9.174311926605505vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list {
+        margin-left: -2.522704339051463vw;
+        margin-right: -2.522704339051463vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+        padding-left: 2.522704339051463vw;
+        padding-right: 2.522704339051463vw;
+    }
+    .list-interleaved .list-item:nth-child(2n) {
+        margin-top: 5.045408678102926vw;
+    }
+    .list-interleaved .list-item:nth-child(2n-1) {
+        margin-bottom: 5.045408678102926vw;
+    }
+}
+
+@media (max-width: 767px) and (min-width:576px) {
+    .posts--listing-grid-has-sidebar-2 .section-sub {
+        margin-top: 9.126466753585397vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list {
+        margin-left: -2.607561929595828vw;
+        margin-right: -2.607561929595828vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+        padding-left: 2.607561929595828vw;
+        padding-right: 2.607561929595828vw;
+    }
+    .list-interleaved .list-item:nth-child(2n) {
+        margin-top: 7.822685788787484vw;
+    }
+    .list-interleaved .list-item:nth-child(2n-1) {
+        margin-bottom: 7.822685788787484vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .post--vertical-normal.post--vertical .post__thumb.thumb-500 {
+        height: 45.63233376792699vw;
+    }
+    .hover-shadow-md:hover .post__thumb::after {
+        box-shadow: 0 1.955671447196871vw 4.302477183833116vw rgba(0, 0, 0, 0.08);
+    }
+    .thumb-480{
+        height: 41.720990873533246vw;
+    }
+}
+
+@media (max-width: 575px) {
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+        width: 100%;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub {
+        margin-top: 6.956521739130435vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list {
+        margin: -3.4782608695652173vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .posts-list>* {
+        padding: 3.4782608695652173vw;
+    }
+    .list-interleaved .list-item:nth-child(2n) {
+        margin-top: 0;
+    }
+    .list-interleaved .list-item:nth-child(2n-1) {
+        margin-bottom: 0;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-main .post--vertical .post__thumb {
+        height: 60.869565217391305vw;
+    }
+    .posts--listing-grid-has-sidebar-2 .section-sub .post--vertical .post__thumb {
+        height: 52.17391304347826vw;
+    }
+    .hover-shadow-md:hover .post__thumb::after {
+        box-shadow: 0 2.608695652173913vw 5.739130434782608vw rgba(0, 0, 0, 0.08);
+    }
+}

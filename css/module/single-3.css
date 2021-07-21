@@ -1,0 +1,144 @@
+.single-entry-bg-full-top.site-content {
+    padding: 0;
+}
+
+.single-header-3::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 90.15639374425023%;
+    width: 100vw;
+    background-color: #171717;
+    z-index: -1;
+}
+
+.single-header-3 .entry-wrap-content .entry-title {
+    margin-top: 0.7142857142857143rem;
+    margin-bottom: 0;
+    padding: 0 7.857142857142857rem;
+}
+
+.single-header-3 .single-header {
+    padding-top: 8.571428571428571rem;
+    padding-bottom: 5.714285714285714rem;
+}
+
+.single-header-3 .entry-wrap-content .entry-thumb {
+    height: 49.28571428571429rem;
+    position: relative;
+    z-index: 1;
+}
+
+.single-header-3 .entry-meta {
+    position: absolute;
+    right: -3.214285714285714rem;
+    writing-mode: vertical-lr;
+    height: 100%;
+    display: flex;
+    padding-top: 5.714285714285714rem;
+}
+
+.single-header-3 .entry-meta:not(.entry-meta--box)>*:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 0.7142857142857143rem;
+}
+
+.single-header-3 .entry-wrap-content .entry-thumb::after {
+    content: "";
+    position: absolute;
+    width: 28.57142857142857rem;
+    height: 28.57142857142857rem;
+    border: 0.0714285714285714rem solid #FFFFFF;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+@media (max-width: 1250px) {
+    .single-header-3 .entry-meta {
+        position: static;
+        writing-mode: unset;
+        margin-top: 1.2vw;
+        padding-top: 0;
+        justify-content: center;
+    }
+    .single-header-3 .entry-meta:not(.entry-meta--box)>*:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 0.8340283569641368vw;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .single-header-3 a.post__cat-style::after {
+        border: 0.08340283569641367vw solid #FFFFFF;
+    }
+    .single-header-3 .entry-wrap-content .entry-title {
+        margin-top: 0.8340283569641368vw;
+        padding: 0 9.174311926605505vw;
+    }
+    .single-header-3 .single-header {
+        padding-top: 10.008340283569641vw;
+        padding-bottom: 6.672226855713094vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-thumb {
+        height: 57.54795663052544vw;
+    }
+    .single-header-3 .entry-meta {
+        right: 0;
+        margin-top: 1.2510425354462051vw;
+    }
+    .single-header-3 .entry-meta:not(.entry-meta--box)>*:not(:last-child) {
+        margin-bottom: 0.8340283569641368vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-thumb::after {
+        width: 33.36113427856547vw;
+        height: 33.36113427856547vw;
+        border: 0.08340283569641367vw solid #FFFFFF;
+    }
+}
+
+@media (max-width: 767px) {
+    .single-header-3 .single-header {
+        padding-top: 9.126466753585397vw;
+        padding-bottom: 5.215123859191656vw;
+    }
+    .single-header-3 .entry-meta {
+        margin-top: 1.303780964797914vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-thumb {
+        height: 52.15123859191656vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-title {
+        margin-top: 1.303780964797914vw;
+        padding: 0 10.430247718383312vw;
+    }
+    .single-header-3 .entry-meta:not(.entry-meta--box)>*:not(:last-child) {
+        margin-right: 1.303780964797914vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-thumb::after {
+        width: 39.11342894393742vw;
+        height: 39.11342894393742vw;
+        border: 0.1303780964797914vw solid #FFFFFF;
+    }
+}
+
+@media (max-width: 575px) {
+    .single-header-3 .single-header {
+        padding-top: 8.695652173913043vw;
+        padding-bottom: 5.217391304347826vw;
+    }
+    .single-header-3 .entry-meta {
+        margin-top: 1.7391304347826086vw;
+    }
+    .single-header-3 .entry-wrap-content .entry-title {
+        margin-top: 1.7391304347826086vw;
+        padding: 0 10.434782608695652vw;
+    }
+    .single-header-3 .entry-meta,
+    .single-header-3 .entry-wrap-content .entry-thumb::after {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+
+
+@media (max-width: 767px) {
+    .posts--listing-list-has-sidebar-3 .post--vertical-normal.post--vertical .post__thumb {
+        height: 45.63233376792699vw;
+    }
+}
+@media (max-width: 575px) {
+    .posts--listing-list-has-sidebar-3 .post--vertical-normal.post--vertical .post__thumb {
+        height: 41.720990873533246vw;
+    }
+    .posts--listing-list-has-sidebar-3 .posts-list {
+        margin: -2.608695652173913vw;
+    }
+    .posts--listing-list-has-sidebar-3 .posts-list >* {
+        padding: 2.608695652173913vw;
+    }
+}

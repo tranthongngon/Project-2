@@ -1,0 +1,487 @@
+.comments-section{
+    margin-top: 4.285714285714286rem;
+}
+.comments-section .comments-title ,.comment-reply-title{
+    padding-top: 1.4285714285714286rem;
+    border-top: 0.07142857142857142rem solid var(--color-border);
+    margin-bottom: 2.142857142857143rem;
+    font-size: 2.3rem;
+    margin-top: 0;
+}
+.comments-title:before{
+    display: none;
+}
+.comment-reply-title{
+    font-size: 2rem;
+}
+.comment-author > img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: -4.642857142857143rem;
+    border-radius: 0.2857142857142857rem;
+}
+.comment-list {
+    margin-bottom: 2.142857142857143rem;
+}
+.comment-body {
+    margin-left: 4.642857142857143rem;
+    margin-bottom: 1.4285714285714286rem;
+}
+.comment-meta {
+    margin-bottom: 0.35714285714285715rem;
+}
+.comment-author {
+    color: var(--color-text);
+}
+.comment-meta > *:not(:last-child) {
+    margin-right: 0.2857142857142857rem;
+}
+.comment-metadata {
+    font-size: 1rem;
+    color: rgba(23, 23, 23, 0.4);
+}
+.comment-metadata:before {
+    margin-right: 0.2857142857142857rem;
+}
+.comment-metadata > *:not(:last-child) {
+    margin-right: 0.2857142857142857rem;
+}
+.comment-content {
+    margin-bottom: 0.7142857142857143rem;
+}
+.comments-section .comment-content p {
+    color: var(--color-text);
+    opacity: 0.8;
+}
+.children .comment-body {
+    margin-left: 3.5714285714285716rem;
+    margin-bottom: 1.4285714285714286rem;
+}
+.children .comment-author > img {
+    height: 36px;
+    width: 36px;
+    left: -3.642857142857143rem;
+}
+.comment-reply-link {
+    font-size: 0.8571428571428571rem;
+    line-height: 1.1428571428571428rem;
+}
+.comment-list ol.children {
+    padding-left: 4.642857142857143rem;
+    margin-bottom: 1.5714285714285714rem;
+}
+.comment-list ol.children > li,
+.comment-list > li:not(:first-child) {
+    padding-top: 1.4285714285714286rem;
+    border-top: 0.07142857142857142rem solid var(--color-border);
+}
+
+/* respond */
+.comment-respond {
+    margin: 2.857142857142857rem 0 1.4285714285714286rem;
+}
+.comment-form {
+    margin: 0 -1.0714285714285714rem;
+}
+.comment-respond .comment-form .comment-notes {
+    width: 100%;
+    font-size: 1.0714285714285714rem;
+    opacity: 0.8;
+}
+.comment-notes {
+    padding: 0 1.0714285714285714rem;
+    margin-bottom: 2.142857142857143rem;
+    color: var(--color-text);
+}
+.comments-section label {
+    margin-bottom: 1.0714285714285714rem;
+}
+
+[class*="comment-form-"] label {
+    display: block;
+}
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-comment .textarea,
+.comment-form-url input[type="text"] {
+    padding: 1.4285714285714286rem;
+}
+.comment-form-author,
+.comment-form-email {
+    margin-bottom: 2.5rem;
+    padding: 1.0714285714285714rem;
+}
+
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond input[type="url"],
+.comment-respond input[type="password"],
+.comment-respond input[type="search"],
+.comment-respond input[type="tel"],
+.comment-respond input[type="number"],
+.comment-respond textarea,
+.comment-respond select,
+.comment-form-url input[type="text"] {
+    border-radius: 0.5714285714285714rem;
+    border: 0.07142857142857142rem solid var(--color-border);
+    font-size: 1rem;
+    background: transparent;
+}
+.comment-form-url {
+    padding-left: 1.0714285714285714rem;
+    margin-bottom: 1.0714285714285714rem;
+    max-width: 50%;
+    width: 50%;
+    padding-right: 1.0714285714285714rem;
+}
+
+.comment-form-author input:focus,
+.comment-form-email input:focus,
+.comment-form-comment textarea:focus,
+.wpcf7-form input:focus,
+.wpcf7-form textarea:focus,
+.comment-form-url input[type="text"]:focus {
+    outline: 0;
+    border-color: var(--color-border);
+    background-color: var(--bg-dark-mode-aside);
+    box-shadow:none;
+}
+.comment-form-comment textarea,
+.comment-form .form-control-custom,
+.wpcf7-form textarea {
+    margin-bottom: 1.7857142857142858rem;
+    color: var(--color-text);
+    padding: 1.4285714285714286rem;
+}
+.comment-form-cookies-consent {
+    padding: 0 1.0714285714285714rem;
+    align-items: center;
+    margin-bottom: 1.0714285714285714rem;
+}
+.comment-form-cookies-consent label {
+    margin-left: 1.0714285714285714rem;
+    margin-bottom: 0;
+    font-size: 1.0714285714285714rem;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+}
+.comment-form .form-submit {
+    padding-top: 0.7142857142857143rem;
+    padding-left: 1.0714285714285714rem;
+    margin-bottom: 0;
+}
+.comment-form .form-submit input[type="submit"] {
+    padding: 0.8571428571428571rem 1.7857142857142858rem;
+    border-radius: 0.5714285714285714rem;
+    font-size: 1.0714285714285714rem;
+    height: 3.2857142857142856rem;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 8.571428571428571rem;
+}
+.comment-form-comment {
+    padding: 0 1.0714285714285714rem;
+}
+.form-submit{
+    padding: 0 1.0714285714285714rem;
+}
+input[type="checkbox"]::before{
+    background-color: var(--bg-color-main);
+}
+
+@media (max-width: 1199px) and (min-width: 576px) {
+    .comments-section .comments-title ,.comment-reply-title {
+        padding-top: 1.6680567139282736vw;
+        border-top: 0.08340283569641367vw solid var(--color-border);
+        margin-bottom: 2.5020850708924103vw;
+    }
+    .comment-list {
+        margin-bottom: 2.5020850708924103vw;
+    }
+    .comment-body {
+        margin-left: 5.421184320266889vw;
+        margin-bottom: 1.6680567139282736vw;
+    }
+    .comment-meta {
+        margin-bottom: 0.4170141784820684vw;
+    }
+    .comment-meta > *:not(:last-child) {
+        margin-right: 0.3336113427856547vw;
+    }
+    .comment-author > img {
+        height: 4.170141784820684vw;
+        width: 4.170141784820684vw;
+        left: -5.421184320266889vw;
+        border-radius: 0.3336113427856547vw;
+    }
+    .comment-metadata:before,
+    .comment-metadata > *:not(:last-child) {
+        margin-right: 0.3336113427856547vw;
+    }
+    .comment-content {
+        margin-bottom: 0.8340283569641368vw;
+    }
+    .comment-list ol.children {
+        padding-left: 5.421184320266889vw;
+        margin-bottom: 1.834862385321101vw;
+    }
+    .comment-list ol.children > li,
+    .comment-list > li:not(:first-child) {
+        padding-top: 1.6680567139282736vw;
+        border-top: 0.08340283569641367vw solid var(--color-border);
+    }
+    .children .comment-body {
+        margin-left: 4.170141784820684vw;
+        margin-bottom: 1.6680567139282736vw;
+    }
+    .children .comment-author > img {
+        height: 3.0025020850708923vw;
+        width: 3.0025020850708923vw;
+        left: -4.253544620517098vw;
+    }
+
+    /* respond */
+    .comment-respond {
+        margin: 3.336113427856547vw 0 1.6680567139282736vw;
+    }
+    .comment-respond input[type="text"],
+    .comment-respond input[type="email"],
+    .comment-respond input[type="url"],
+    .comment-respond input[type="password"],
+    .comment-respond input[type="search"],
+    .comment-respond input[type="tel"],
+    .comment-respond input[type="number"],
+    .comment-respond textarea,
+    .comment-respond select {
+        border-radius: 0.6672226855713094vw;
+        border: 0.08340283569641367vw solid var(--color-border);
+    }
+    .comment-form-author input,
+    .comment-form-email input,
+    .comment-form-comment .textarea,
+    .comment-form-url input[type="text"] {
+        padding: 1.6680567139282736vw;
+    }
+    .comment-form-comment {
+        padding: 0 1.2510425354462051vw;
+    }
+    .comment-notes {
+        padding: 0 1.2510425354462051vw;
+        margin-bottom: 2.5020850708924103vw;
+    }
+    .comments-section label {
+        margin-bottom: 1.2510425354462051vw;
+    }
+    .comment-form-comment textarea,
+    .comment-form .form-control-custom,
+    .wpcf7-form textarea {
+        margin-bottom: 2.085070892410342vw;
+        padding: 1.6680567139282736vw;
+    }
+    .comment-form-author,
+    .comment-form-email {
+        margin-bottom: 2.9190992493744785vw;
+        padding: 1.2510425354462051vw;
+    }
+    .comment-form-url {
+        padding-left: 1.2510425354462051vw;
+        margin-bottom: 1.2510425354462051vw;
+        padding-right: 1.2510425354462051vw;
+    }
+    .comment-form-author input:focus,
+    .comment-form-email input:focus,
+    .comment-form-comment textarea:focus,
+    .wpcf7-form input:focus,
+    .wpcf7-form textarea:focus,
+    .comment-form-url input[type="text"]:focus {
+        box-shadow:none;
+    }
+    .comment-form-cookies-consent {
+        padding: 0 1.2510425354462051vw;
+        margin-bottom: 1.2510425354462051vw;
+    }
+    .comment-form-cookies-consent label {
+        margin-left: 1.2510425354462051vw;
+        margin-bottom: 0;
+    }
+    .comment-form .form-submit input[type="submit"] {
+        padding: 1.0008340283569641vw 2.085070892410342vw;
+        border-radius: 0.6672226855713094vw;
+        height: 3.8365304420350292vw;
+        min-width: 10.008340283569641vw;
+    }
+    .comment-form .form-submit {
+        padding-top: 0.8340283569641368vw;
+        padding-left: 1.2510425354462051vw;
+        padding-right: 1.2510425354462051vw;
+    }
+    .form-submit{
+        padding: 0 1.2510425354462051vw;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .comment-content,
+    .comment-respond .comment-form .comment-notes {
+        font-size: 1.6145307769929365vw;
+    }
+    .comments-section label {
+        font-size: 1.4127144298688195vw;
+    }
+    .comment-form-cookies-consent label,
+    .comment-form .form-submit input[type="submit"] {
+        font-size: 1.513622603430878vw;
+    }
+    .comment-form .form-submit input[type="submit"]{
+        padding: 0.66722268557vw 1.513622603430878vw;
+    }
+}
+@media (max-width: 767px) {
+    .comment-form .form-submit input[type="submit"] {
+        height: 5.215123859191656vw;
+    }
+}
+@media (max-width: 575px) {
+    .comments-section .comments-title , .comment-reply-title {
+        padding-top: 3.4782608695652173vw;
+        border-top: 0.17391304347826086vw solid var(--color-border);
+        margin-bottom: 3.4782608695652173vw;
+    }
+    .comment-list {
+        margin-bottom: 5.217391304347826vw;
+    }
+    .comment-body {
+        margin-left: 11.304347826086957vw;
+        margin-bottom: 3.4782608695652173vw;
+    }
+    .comment-meta {
+        margin-bottom: 0.8695652173913043vw;
+    }
+    .comment-meta > *:not(:last-child) {
+        margin-right: 0;
+    }
+    .comment-author > img {
+        height: 8.695652173913043vw;
+        width: 8.695652173913043vw;
+        left: -11.304347826086957vw;
+        border-radius: 0.6956521739130435vw;
+    }
+    .comment-content {
+        margin-bottom: 1.7391304347826086vw;
+    }
+    .comment-list ol.children {
+        padding-left: 3.8260869565217392vw;
+        margin-bottom: 3.8260869565217392vw;
+    }
+    .comment-list ol.children > li,
+    .comment-list > li:not(:first-child) {
+        padding-top: 3.4782608695652173vw;
+        border-top: 0.17391304347826086vw solid var(--color-border);
+    }
+    .children .comment-body {
+        margin-left: 8.695652173913043vw;
+        margin-bottom: 3.4782608695652173vw;
+    }
+    .children .comment-author > img {
+        height: 6.260869565217392vw;
+        width: 6.260869565217392vw;
+        left: -8.869565217391305vw;
+    }
+    .comment-content {
+        margin-bottom: 1.7391304347826086vw;
+    }
+
+    /* respond */
+
+    .comment-respond {
+        margin: 6.956521739130435vw 0 3.4782608695652173vw;
+    }
+    .comment-notes {
+        padding: 0 2.608695652173913vw;
+        margin-bottom: 5.217391304347826vw;
+    }
+    .comment-form-comment {
+        padding: 0 2.608695652173913vw;
+    }
+    .comments-section label {
+        margin-bottom: 2.608695652173913vw;
+    }
+    .comment-form-author input,
+    .comment-form-email input,
+    .comment-form-comment .textarea,
+    .comment-form-url input[type="text"] {
+        padding: 2.608695652173913vw;
+    }
+    .comment-form-comment textarea,
+    .comment-form .form-control-custom,
+    .wpcf7-form textarea {
+        margin-bottom: 4.3478260869565215vw;
+        padding: 2.608695652173913vw;
+    }
+    .comment-respond input[type="text"],
+    .comment-respond input[type="email"],
+    .comment-respond input[type="url"],
+    .comment-respond input[type="password"],
+    .comment-respond input[type="search"],
+    .comment-respond input[type="tel"],
+    .comment-respond input[type="number"],
+    .comment-respond textarea,
+    .comment-respond select {
+        border-radius: 1.391304347826087vw;
+        border: 0.17391304347826086vw solid var(--color-border);
+    }
+    .comment-form-author,
+    .comment-form-email {
+        width: 100%;
+        margin-bottom: 0;
+        padding: 2.608695652173913vw;
+    }
+    .comment-form-url {
+        padding-left: 2.608695652173913vw;
+        margin-bottom: 2.608695652173913vw;
+        padding-right: 2.608695652173913vw;
+        max-width: 100%;
+        width: 100%;
+    }
+    .comment-form-author input:focus,
+    .comment-form-email input:focus,
+    .comment-form-comment textarea:focus,
+    .wpcf7-form input:focus,
+    .wpcf7-form textarea:focus ,
+    .comment-form-url input[type="text"]:focus{
+        box-shadow:none;
+    }
+    .comment-form-cookies-consent label {
+        margin-left: 2.608695652173913vw;
+        margin-bottom: 0;
+    }
+    .comment-form-cookies-consent input[type="checkbox"], input[type="radio"] {
+        align-self: flex-start;
+        margin-top: 0.8695652173913043vw;
+    }
+    .comment-form .form-submit input[type="submit"] {
+        padding: 1.73913043478vw 3.4782608695652173vw;
+        border-radius: 1.391304347826087vw;
+        height: 7.826086956521739vw;
+        box-shadow: none;
+        min-width:fit-content;
+    }
+    .comment-form .form-submit {
+        padding-top: 1.7391304347826086vw;
+        padding-left: 2.608695652173913vw;
+        padding-right: 2.608695652173913vw;
+    }
+    .form-submit{
+        padding: 0 2.608695652173913vw;
+    }
+}
+@media(max-width:380px) {
+    .comment-form .form-submit input[type="submit"]{
+        padding: 1.3157894736842106vw 2.6315789473684212vw;
+    }
+}

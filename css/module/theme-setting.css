@@ -1,0 +1,100 @@
+/* -----------------------theme-setting*/
+.row {
+    margin-right: -1.251042535446205vw;
+    margin-left: -1.251042535446205vw;
+}
+.atbs-main-col {
+    padding-left: 1.251042535446205vw;
+    padding-right: 1.251042535446205vw;
+}
+.atbs-sub-col {
+    padding-left: 1.251042535446205vw;
+    padding-right: 1.251042535446205vw;
+}
+
+@media (min-width: 768px) {
+    .atbs-main-col {
+        width: 75%;
+        padding-right: 1.251042535446205vw;
+    }
+    .atbs-sub-col {
+        width: 25%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        /* width: 85.7142857143rem;
+        max-width: 100%; */
+    }
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .atbs-sub-col {
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .atbs-main-col {
+        padding-right: 35px;
+        padding-left: 15px;
+    }
+    .atbs-block--fullwidth {
+        margin-bottom: 10.714285714285714rem;
+    }
+}
+@media (max-width: 1680px) and (min-width: 1200px){
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1199px) {
+    
+    .container {
+        width: 100%;
+        padding-right: 1.251042535446205vw;
+        padding-left: 1.251042535446205vw;
+    }
+}
+@media(max-width:1199px) and (min-width:768px) {
+    .atbs-block{
+        margin-bottom: 8.340283569641368vw;
+    }
+}
+@media (max-width: 767px) and (min-width:576px) {
+    .atbs-sub-col {
+        padding-top: 2.50208507089241vw;
+    }
+    .atbs-block{
+        margin-bottom: 9.126466753585397vw;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    html {
+        font-size: 1.16763969975vw;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    html {
+        font-size: 1.82529335072vw;
+    }
+}
+
+@media(max-width:575px) {
+    html {
+        font-size: 2.4347826087vw;
+    }
+    .atbs-block{
+        margin-bottom: 8.695652173913043vw;
+    }
+}
+@media(max-width:380px) {
+    html {
+        font-size: 3.1578947368421053vw;
+    }
+}
+
+
+/* -----------------------theme-setting*/

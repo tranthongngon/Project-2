@@ -1,0 +1,90 @@
+.atbs-featured-module-1 .posts-list {
+    margin-top: -2.857142857142857rem;
+    margin-bottom: -2.857142857142857rem;
+}
+
+.atbs-featured-module-1 .posts-list>* {
+    padding-top: 2.857142857142857rem;
+    padding-bottom: 2.857142857142857rem;
+}
+
+.post--horizontal-text-horizontal .post__thumb {
+    margin-right: 7.142857142857143rem;
+}
+
+.post--horizontal-text-horizontal .post__text {
+    flex: 1;
+}
+
+.post--horizontal-text-horizontal .post__title {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.post--horizontal-text-horizontal .post__meta {
+    margin-left: 9.285714285714286rem;
+    height: auto;
+    justify-content: center;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .post--horizontal-text-horizontal .post__thumb {
+        margin-right: 8.340283569641368vw;
+    }
+    .post--horizontal-text-horizontal .post__meta {
+        margin-left: 10.842368640533778vw;
+    }
+    .atbs-featured-module-1 .posts-list {
+        margin-top: -3.336113427856547vw;
+        margin-bottom: -3.336113427856547vw;
+    }
+    .atbs-featured-module-1 .posts-list>* {
+        padding-top: 3.336113427856547vw;
+        padding-bottom: 3.336113427856547vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .atbs-featured-module-1 .posts-list {
+        margin-top: -3.911342894393742vw;
+        margin-bottom: -3.911342894393742vw;
+    }
+    .atbs-featured-module-1 .posts-list>* {
+        padding-top: 3.911342894393742vw;
+        padding-bottom: 3.911342894393742vw;
+    }
+    .post--horizontal-text-horizontal {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .post--horizontal-text-horizontal .post__thumb {
+        margin-right: 6.51890482398957vw;
+        margin-bottom: 0;
+    }
+    .post--horizontal-text-horizontal .post__meta {
+        margin-left: 9.126466753585397vw;
+    }
+}
+
+@media (max-width: 575px) {
+    .post--horizontal-text-horizontal .post__thumb {
+        margin-right: 2.608695652173913vw;
+        margin-bottom: 0;
+    }
+    .post--horizontal-text-horizontal .post__meta {
+        margin-left: 0;
+        width: 100%;
+    }
+    .post--horizontal-text-horizontal .time {
+        display: none;
+    }
+    .atbs-featured-module-1 .posts-list {
+        margin-top: -5.217391304347826vw;
+        margin-bottom: -5.217391304347826vw;
+    }
+    .atbs-featured-module-1 .posts-list>* {
+        padding-top: 5.217391304347826vw;
+        padding-bottom: 5.217391304347826vw;
+    }
+}

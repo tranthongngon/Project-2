@@ -1,0 +1,15 @@
+
+@media (max-width: 767px) {
+    .atbs-featured-module-5 .posts-list >* {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .atbs-featured-module-5 .posts-list >* {
+        width: 100%;
+    }
+    .atbs-featured-module-5 .post--vertical.post--vertical-normal .post__thumb {
+        height: 52.17391304347826vw;
+    }
+}

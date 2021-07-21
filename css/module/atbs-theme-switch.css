@@ -1,0 +1,136 @@
+/* ----------------------- atbs-theme-switch */
+
+.atbs-theme-switch {
+    position: relative;
+    color: #F6F6F6;
+}
+
+.inverse-text .atbs-theme-switch {
+    color: #fff;
+}
+
+.atbs-theme-switch__button {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    height: 2.357142857142857rem;
+    width: 4.785714285714286rem;
+    background-color: #F6F6F6;
+    border: none;
+    border-radius: 1.0714285714285714rem;
+    transition: 400ms;
+}
+.atbs-theme-switch__button svg{
+    width: 1.0714285714285714rem;
+    height: 1.0714285714285714rem;
+    fill: #fff;
+}
+.atbs-theme-switch__button svg path{
+    fill: #fff;
+}
+.atbs-theme-switch__button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.atbs-theme-switch__button:focus {
+    box-shadow: 0 0 0 0.07142857142857142rem var(--color-primary);
+    outline: none;
+}
+.atbs-theme-switch__label--light{
+    color: var(--color-primary);
+}
+
+.atbs-theme-switch__button span {
+    position: absolute;
+    content: '';
+    bottom:0.2857142857142857rem;
+    left:0.2857142857142857rem;
+    width: 1.7857142857142858rem;
+    height: 1.7857142857142858rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    transition: 400ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atbs-theme-switch__button[aria-checked="true"] {
+    background-color: #2e2e2e;
+}
+
+.atbs-theme-switch__button[aria-checked="true"] span {
+    transform: translateX(136%);
+    background-color: #e5e5e5;
+}
+.atbs-theme-switch__button[aria-checked="true"] span svg path{
+    fill: #171717;
+}
+
+.atbs-theme-switch__button[aria-checked="true"]:focus {
+    box-shadow: 0 0 0 0.07142857142857142rem rgba(255, 255, 255, 0.6);
+}
+
+/*---- Responsive -----*/
+@media(max-width:1199px) and (min-width:768px) {
+    .atbs-theme-switch__button {
+        width: 5.587989991659716vw;
+        height: 2.7522935779816513vw;
+        border-radius: 11.2510425354462051vw;
+    }
+    .atbs-theme-switch__button span {
+        bottom: 0.3336113427856547vw;
+        left: 0.3336113427856547vw;
+        width: 2.085070892410342vw;
+        height: 2.085070892410342vw;
+    }
+    .atbs-theme-switch__button svg{
+        width: 1.2510425354462051vw;
+        height: 1.2510425354462051vw;
+    }
+}
+@media(max-width:767px) {
+    .atbs-theme-switch{
+        margin: 0 1.955671447196871vw;
+    }
+    .atbs-theme-switch__button {
+        width: 8.213820078226858vw;
+        height: 4.041720990873533vw;
+        border-radius: 1.955671447196871vw;
+    }
+
+    .atbs-theme-switch__button span {
+        width: 2.9986962190352022vw;
+        height: 2.9986962190352022vw;
+        bottom: 0.5215123859191656vw;
+        left: 0.5215123859191656vw;
+    }
+    .atbs-theme-switch__button svg{
+        width: 1.955671447196871vw;
+        height: 1.955671447196871vw;
+    }
+}
+@media(max-width:575px){
+    .atbs-theme-switch{
+        margin: 0 1.7391304347826086vw;
+    }
+    .atbs-theme-switch__button {
+        width: 10.956521739130435vw;
+        height: 5.391304347826087vw;
+        border-radius: 2.608695652173913vw;
+    }
+
+    .atbs-theme-switch__button span {
+        width: 4vw;
+        height: 4vw;
+        bottom: 0.6956521739130435vw;
+        left: 0.6956521739130435vw;
+    }
+    .atbs-theme-switch__button svg{
+        width: 2.608695652173913vw;
+        height: 2.608695652173913vw;
+    }
+}
+
+/* atbs-theme-switch ----------------------- */

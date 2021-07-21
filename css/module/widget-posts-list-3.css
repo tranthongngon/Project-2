@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+    .widget-posts-list-3 .posts-list {
+        margin: -1.303780964797914vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .widget-posts-list-3 .posts-list >* {
+        padding: 1.303780964797914vw;
+        width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .widget-posts-list-3 .posts-list {
+        margin: -1.7391304347826086vw;
+    }
+    .widget-posts-list-3 .posts-list >* {
+        padding: 1.7391304347826086vw;
+        width: 100%;
+    }
+}
